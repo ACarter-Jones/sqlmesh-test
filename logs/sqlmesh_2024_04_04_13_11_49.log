@@ -1,0 +1,8 @@
+2024-04-04 13:11:49,588 - MainThread - sqlmesh.core.config.connection - INFO - Creating new DuckDB adapter for data files: {'db.db'} (connection.py:255)
+2024-04-04 13:11:49,613 - MainThread - sqlmesh.core.config.connection - INFO - Creating new DuckDB adapter for in-memory database (connection.py:257)
+2024-04-04 13:11:49,667 - MainThread - sqlmesh.core.config.connection - INFO - Using existing DuckDB adapter due to overlapping data file: db.db (connection.py:250)
+2024-04-04 13:11:49,681 - MainThread - sqlmesh.core.state_sync.engine_adapter - INFO - Compacting 4 intervals for 4 snapshots (engine_adapter.py:679)
+2024-04-04 13:11:49,681 - MainThread - sqlmesh.core.state_sync.engine_adapter - INFO - Pushing intervals for snapshot SnapshotId<"db"."sqlmesh_example"."full_model": 2828824763> (engine_adapter.py:868)
+2024-04-04 13:11:49,681 - MainThread - sqlmesh.core.state_sync.engine_adapter - INFO - Pushing intervals for snapshot SnapshotId<"db"."sqlmesh_example"."incremental_model": 1146462437> (engine_adapter.py:868)
+2024-04-04 13:11:49,681 - MainThread - sqlmesh.core.state_sync.engine_adapter - INFO - Pushing intervals for snapshot SnapshotId<"db"."sqlmesh_example"."incremental_model": 3167203313> (engine_adapter.py:868)
+2024-04-04 13:11:49,681 - MainThread - sqlmesh.core.state_sync.engine_adapter - INFO - Pushing intervals for snapshot SnapshotId<"db"."sqlmesh_example"."seed_model": 2682453022> (engine_adapter.py:868)
