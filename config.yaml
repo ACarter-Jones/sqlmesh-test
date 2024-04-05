@@ -8,3 +8,6 @@ default_gateway: local
 
 model_defaults:
     dialect: duckdb
+
+cicd_bot:
+    type: github
