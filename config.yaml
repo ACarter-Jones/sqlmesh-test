@@ -13,3 +13,9 @@ cicd_bot:
     type: github
     merge_method: squash
     enable_deploy_command: true
+
+users:
+- username: ACarter-Jones
+  github_username: ACarter-Jones
+  roles:
+    - required_approver
