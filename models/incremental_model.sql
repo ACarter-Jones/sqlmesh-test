@@ -11,7 +11,7 @@ MODEL (
 SELECT
   id,
   item_id,
-  'z' AS new_column, /* new column */
+  'fake_out' AS new_column, /* new column */
   event_date
 FROM sqlmesh_example.seed_model
 WHERE
