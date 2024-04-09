@@ -11,3 +11,5 @@ model_defaults:
 
 cicd_bot:
     type: github
+    merge_method: squash
+    enable_deploy_command: true
