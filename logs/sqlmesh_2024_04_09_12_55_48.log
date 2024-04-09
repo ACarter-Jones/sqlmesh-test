@@ -1,2 +1,0 @@
-2024-04-09 12:55:48,059 - MainThread - sqlmesh.core.config.connection - INFO - Creating new DuckDB adapter for data files: {'db.db'} (connection.py:255)
-2024-04-09 12:55:48,087 - MainThread - sqlmesh.core.config.connection - INFO - Creating new DuckDB adapter for in-memory database (connection.py:257)
